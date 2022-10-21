@@ -39,5 +39,77 @@ export default {
 </script>
 
 <style>
+/* header */
 
+.header {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 20px;
+	padding-top: 20px;
+}
+
+.logo img, .logo h1, .select-crop, .select-date {
+	display: inline-block;
+	vertical-align: top;
+}
+.logo h1 {
+	font-size: 1.750em;
+	font-family: 'nanumsquare', sans-serif;
+	padding: 5px 0 0 0;
+	margin: 0 0 0 10px;
+}
+.select-crop {
+	margin: 0 20px;
+}
+.select-crop .card {
+	padding: 5px;
+	border-radius: 12px;
+	background-color: #ffffff;
+}
+.btn.btn-crop {
+	color: #666666;
+	font-size: 1.125em;
+	font-weight: 700;
+	padding: 10px 30px;
+	box-shadow: none;
+}
+.btn.btn-crop:hover, .btn.btn-crop:focus {
+	color: #368bdc;
+}
+.btn.btn-crop.active {
+	color: #ffffff;
+	border-radius: 10px;
+	background-color: #368bdc;
+}
+.btn.btn-date {
+	color: #ffffff;
+	font-size: 1.125em;
+	font-weight: 700;
+	padding: 15px 35px;
+	margin: 0 5px;
+	border-radius: 12px;
+	background-color: rgba(54,139,220,.3);
+}
+.btn.btn-date:hover, .btn.btn-date:focus {
+	background-color: rgba(54,139,220,.6);
+}
+.btn.btn-date.active {
+	background-color: rgba(54,139,220,1);
+}
+.btn.btn-controller {
+	padding: 6px 10px;
+	margin: 0 5px;
+	border-radius: 10px;
+}
+.btn.btn-controller:hover, .btn.btn-controller:focus {
+	background-color: #eeeeee;
+}
+.current-time .card {
+	color: #ffffff;
+	font-weight: 700;
+	padding: 10px 15px;
+	background-color: rgba(54,139,220,.5);
+}
 </style>
