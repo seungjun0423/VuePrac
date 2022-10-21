@@ -8,6 +8,7 @@
 </div>
 </template>
 
+
 <script>
 import Header from "./components/Header.vue";
 import Left from "./components/Left.vue";
@@ -31,8 +32,8 @@ export default {
 }
 </script>
 
-<style>
 
+<style>
 body{
   margin:0px;
 }
